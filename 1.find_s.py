@@ -1,6 +1,6 @@
 import csv
 a = []
-with open("C:\\Users\\sri\\Desktop\\New folder\\enjoysport.csv", 'r') as csvfile:
+with open("C:\\Users\\loghi\\Desktop\\New folder\\enjoysport.csv", 'r') as csvfile:
     for row in csv.reader(csvfile):
         a.append(row)
     print(a)
